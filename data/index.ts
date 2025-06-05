@@ -1,21 +1,11 @@
 export const navItems = [
 	{ name: "About", link: "#about" },
 	{ name: "Projects", link: "#projects" },
-	{ name: "Testimonials", link: "#testimonials" },
+	{ name: "Experience", link: "#experience" },
 	{ name: "Contact", link: "#contact" },
 ];
 
 export const gridItems = [
-	// {
-	// 	id: 1,
-	// 	title: "I prioritize client collaboration, fostering open communication ",
-	// 	description: "",
-	// 	className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
-	// 	imgClassName: "w-full h-full",
-	// 	titleClassName: "justify-end",
-	// 	img: "/b1.svg",
-	// 	spareImg: "",
-	// },
 	{
 		id: 1,
 		title: "What I Actually Do",
@@ -201,93 +191,35 @@ export const projects = [
 
 export const testimonials = [
 	{
-		quote: "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-		name: "Michael Johnson",
-		title: "Director of AlphaStream Technologies",
-	},
-	{
-		quote: "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-		name: "Michael Johnson",
-		title: "Director of AlphaStream Technologies",
-	},
-	{
-		quote: "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-		name: "Michael Johnson",
-		title: "Director of AlphaStream Technologies",
-	},
-	{
-		quote: "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-		name: "Michael Johnson",
-		title: "Director of AlphaStream Technologies",
-	},
-	{
-		quote: "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-		name: "Michael Johnson",
-		title: "Director of AlphaStream Technologies",
-	},
-];
-
-export const companies = [
-	{
-		id: 1,
-		name: "cloudinary",
-		img: "/cloud.svg",
-		nameImg: "/cloudName.svg",
-	},
-	{
-		id: 2,
-		name: "appwrite",
-		img: "/app.svg",
-		nameImg: "/appName.svg",
-	},
-	{
-		id: 3,
-		name: "HOSTINGER",
-		img: "/host.svg",
-		nameImg: "/hostName.svg",
-	},
-	{
-		id: 4,
-		name: "stream",
-		img: "/s.svg",
-		nameImg: "/streamName.svg",
-	},
-	{
-		id: 5,
-		name: "docker.",
-		img: "/dock.svg",
-		nameImg: "/dockerName.svg",
+		quote: "I'm a Frontend Developer with 1 year of hands-on experience building modern, responsive web applications. I specialize in ReactJS, Next.js, and Tailwind CSS, with strong skills in state management using Redux and Zustand. I’m passionate about clean UI, scalable architecture, and delivering smooth user experiences. Always eager to learn, collaborate, and turn ideas into reality.",
+		name: "Harshal Margaj",
+		title: "Software Engineer",
 	},
 ];
 
 export const workExperience = [
 	{
 		id: 1,
-		title: "Frontend Engineer Intern",
-		desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+		title: "Software Engineer",
+		duration: "Jan 2024 - Dec 2024",
+		company: "Oculon.AI, Mumbai",
+		desc: `• Led the end-to-end development of the product Dashboard and Settings Panel, owning the entire frontend architecture and UI/UX implementation.
+• Built and maintained scalable, reusable components using ReactJS, Tailwind CSS, Redux, and Next.js, aligned with a design system.
+• Integrated REST APIs and designed mock API structures to streamline frontend development and testing workflows.
+• Optimized performance and responsiveness of the React app, enhancing load times and overall user experience.
+• Collaborated cross-functionally with designers and backend engineers to deliver production-ready features on tight timelines.`,
 		className: "md:col-span-2",
 		thumbnail: "/exp1.svg",
 	},
 	{
 		id: 2,
-		title: "Mobile App Dev - JSM Tech",
-		desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
-		className: "md:col-span-2", // change to md:col-span-2
-		thumbnail: "/exp2.svg",
-	},
-	{
-		id: 3,
-		title: "Freelance App Dev Project",
-		desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-		className: "md:col-span-2", // change to md:col-span-2
-		thumbnail: "/exp3.svg",
-	},
-	{
-		id: 4,
-		title: "Lead Frontend Developer",
-		desc: "Developed and maintained user-facing features using modern frontend technologies.",
-		className: "md:col-span-2",
-		thumbnail: "/exp4.svg",
+		title: "Full Stack Developer Intern",
+		duration: "Jul 2023 - Sep 2023",
+		company: "Fynd, Mumbai",
+		desc: `• Collaborated with a team of interns to solve practical development tasks and build mini-projects simulating real-world scenarios.
+• Gained hands-on experience with frontend and backend workflows, including API handling and component-based architecture.`,
+		className: "",
+		thumbnail: "/exp2.svg", // You can replace this with your actual thumbnail if you have one
 	},
 ];
 
@@ -295,13 +227,21 @@ export const socialMedia = [
 	{
 		id: 1,
 		img: "/git.svg",
-	},
-	{
-		id: 2,
-		img: "/twit.svg",
+		link: "https://github.com/HarshalMargaj",
 	},
 	{
 		id: 3,
 		img: "/link.svg",
+		link: "https://www.linkedin.com/in/harshal-margaj/",
+	},
+	{
+		id: 3,
+		img: "/icons8-leetcode.svg",
+		link: "https://leetcode.com/u/Harshal_Margaj/",
+	},
+	{
+		id: 3,
+		img: "/icons8-instagram (1).svg",
+		link: "https://www.instagram.com/harshal.margaj/",
 	},
 ];
