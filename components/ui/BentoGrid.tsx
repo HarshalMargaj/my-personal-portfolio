@@ -196,13 +196,13 @@ export const BentoGridItem = ({
 
 					{id === 6 && (
 						<div className="mt-5 relative">
-							<div className={`absolute -bottom-5 right-0`}>
+							{/* <div className={`absolute -bottom-5 right-0`}>
 								<Lottie
 									options={defaultOptions}
 									height={200}
 									width={400}
 								/>
-							</div>
+							</div> */}
 
 							<MagicButton
 								title={
