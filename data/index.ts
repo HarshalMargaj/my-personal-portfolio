@@ -50,12 +50,12 @@ export const gridItems = [
 	{
 		id: 5,
 		title: "What I Bring to the Table",
-		description: "",
+		// description: "",
 		className: "md:col-span-3 md:row-span-2",
 		imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
 		titleClassName: "justify-center md:justify-start lg:justify-center",
-		img: "",
-		spareImg: "",
+		// img: "",
+		// spareImg: "",
 	},
 	{
 		id: 6,
@@ -226,21 +226,25 @@ export const workExperience = [
 export const socialMedia = [
 	{
 		id: 1,
+		name: "Github",
 		img: "/git.svg",
 		link: "https://github.com/HarshalMargaj",
 	},
 	{
-		id: 3,
+		id: 2,
+		name: "Linkedin",
 		img: "/link.svg",
 		link: "https://www.linkedin.com/in/harshal-margaj/",
 	},
 	{
 		id: 3,
+		name: "Leetcode",
 		img: "/icons8-leetcode.svg",
 		link: "https://leetcode.com/u/Harshal_Margaj/",
 	},
 	{
-		id: 3,
+		id: 4,
+		name: "Instagram",
 		img: "/icons8-instagram (1).svg",
 		link: "https://www.instagram.com/harshal.margaj/",
 	},

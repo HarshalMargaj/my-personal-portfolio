@@ -83,7 +83,7 @@ const RecentProjects = () => {
 									</div>
 
 									<div onClick={() => setProject(item)}>
-										<ModalTrigger className="flex justify-center items-center">
+										<ModalTrigger className="md:flex hidden justify-center items-center">
 											<p className="flex lg:text-xl md:text-xs text-sm text-purple">
 												See more
 											</p>
@@ -93,6 +93,27 @@ const RecentProjects = () => {
 											/>
 										</ModalTrigger>
 									</div>
+								</div>
+								<div className="md:hidden lg:hidden flex gap-2 items-center w-full">
+									<a
+										href={
+											item?.details?.project_source_code
+										}
+										target="_blank"
+										className="w-full"
+									>
+										<MagicButton title="Source Code" />
+									</a>
+									<a
+										href={item?.titleUrl}
+										target="_blank"
+										className="w-full"
+									>
+										<MagicButton
+											title="Visit Site"
+											otherClasses="w-full"
+										/>
+									</a>
 								</div>
 							</PinContainer>
 						</div>
