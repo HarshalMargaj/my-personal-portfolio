@@ -13,8 +13,27 @@ import {
 import { useState } from "react";
 import MagicButton from "./MagicButton";
 
+type ProjectType = {
+	id: number;
+	title: string;
+	titleUrl: string;
+	des: string;
+	img: string;
+	iconLists: string[];
+	link: string;
+	tech_stack: string[];
+	details: {
+		overview: string;
+		features: string[];
+		tech_stack: string[];
+		challenges_and_learnings: string[];
+		future_improvements: string[];
+		project_source_code: string;
+	};
+};
+
 const RecentProjects = () => {
-	const [project, setProject] = useState();
+	const [project, setProject] = useState<ProjectType | null>(null);
 
 	return (
 		<Modal>
@@ -217,7 +236,7 @@ const RecentProjects = () => {
 
 						<div className="flex gap-2 items-center w-full">
 							<a
-								href={project?.project_source_code}
+								href={project?.details?.project_source_code}
 								target="_blank"
 								className="w-full"
 							>
