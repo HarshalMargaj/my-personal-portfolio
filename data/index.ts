@@ -249,3 +249,24 @@ export const socialMedia = [
 		link: "https://www.instagram.com/harshal.margaj/",
 	},
 ];
+
+export const achivements = [
+	{
+		id: 1,
+		count: "70+",
+		title: "Leetcode problems solved",
+		description: "Solved to strengthen DSA skills",
+	},
+	{
+		id: 2,
+		count: "120+",
+		title: "GFG DSA problems solved",
+		description: "Strengthened core DSA concepts",
+	},
+	{
+		id: 3,
+		count: "2+",
+		title: "Projects completed",
+		description: "Built using React, Next.js & more",
+	},
+];
