@@ -3,7 +3,7 @@ import { achivements } from "@/data";
 
 export function CardSpotlightDemo() {
 	return (
-		<div className="flex justify-between items-center">
+		<div className="flex md:flex-row flex-col justify-between items-center gap-4">
 			{achivements.map(item => (
 				<CardSpotlight
 					className="h-[100px] w-96 flex items-center justify-center"
