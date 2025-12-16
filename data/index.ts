@@ -83,7 +83,7 @@ export const projects = [
 			"/strapi-icon-svgrepo-com.svg",
 			"/stripe-v2-svgrepo-com.svg",
 		],
-		link: "/ui.earth.com",
+		link: "https://shopvistav4.netlify.app/",
 		tech_stack: ["React.JS", "Strapi", "Stripe", "Redux", "Tailwind.CSS"],
 
 		// New detailed info for modal
@@ -136,7 +136,7 @@ export const projects = [
 			"/prisma-svgrepo-com (1).svg",
 			"/stripe-v2-svgrepo-com.svg",
 		],
-		link: "/ui.yoom.com",
+		link: "https://taskflow-v3.vercel.app/",
 		tech_stack: [
 			"React.JS",
 			"Next.Js",
@@ -187,6 +187,79 @@ export const projects = [
 			project_source_code: "https://github.com/HarshalMargaj/taskflow",
 		},
 	},
+	{
+		id: 3,
+		title: "Social Media Platform – Connectly",
+		titleUrl: "https://connectly-ivory.vercel.app/",
+		des: "Connectly is a community-driven social media platform inspired by Reddit and Threads. Users can create and join communities, share posts, interact through likes and comments, manage profiles, and explore content across communities. Built with a modern full-stack setup ensuring scalability, performance, and a smooth user experience.",
+		img: "/connectly.png",
+		iconLists: [
+			"/next.svg",
+			"/tail.svg",
+			"/ts.svg",
+			"/prisma-svgrepo-com (1).svg",
+		],
+		link: "https://connectly-ivory.vercel.app/",
+		tech_stack: [
+			"React.JS",
+			"Next.Js",
+			"TypeScript",
+			"Tailwind.CSS",
+			"Zustand",
+			"Clerk",
+			"Prisma",
+			"Supabase",
+			"Shadcn",
+		],
+
+		details: {
+			overview:
+				"Connectly is a full-stack community-based social media platform that allows users to create, join, and manage communities while sharing posts within them. Inspired by platforms like Reddit and Threads, the application focuses on real-time interaction, scalable architecture, and a clean, responsive user interface. Built using Next.js and React with TypeScript, the app ensures type safety and performance, while Prisma and Supabase handle robust backend data management and real-time features. Clerk provides secure authentication and user management.",
+
+			features: [
+				"User authentication with sign up and sign in using Clerk.",
+				"Create, join, and leave communities.",
+				"Create, edit, and delete posts inside communities.",
+				"Like, comment on, save, and unsave posts.",
+				"User profile management with posts, comments, and saved posts view.",
+				"Search and explore communities.",
+				"Community management capabilities for users.",
+				"Home feed displaying posts from all communities.",
+				"Dark mode and light mode support.",
+				"Responsive UI optimized for all screen sizes.",
+			],
+
+			tech_stack: [
+				"ReactJS - Component-based frontend development",
+				"Next.js - Server-side rendering and routing",
+				"TypeScript - Type safety across the application",
+				"Tailwind CSS - Utility-first responsive styling",
+				"Zustand - Client-side state management",
+				"Clerk - Authentication and user management",
+				"Prisma - ORM for structured database access",
+				"Supabase - PostgreSQL database and real-time features",
+				"Shadcn UI - Reusable and accessible UI components",
+			],
+
+			challenges_and_learnings: [
+				"Designing scalable community and post data models using Prisma.",
+				"Managing complex client-side state with Zustand.",
+				"Implementing real-time interactions and updates with Supabase.",
+				"Ensuring secure authentication and protected routes using Clerk.",
+				"Building reusable components for posts, communities, and profiles.",
+			],
+
+			future_improvements: [
+				"Add post notifications for likes and comments.",
+				"Implement community moderation tools and roles.",
+				"Enable image and media uploads in posts.",
+				"Introduce trending communities and posts.",
+				"Add pagination and advanced filtering for feeds.",
+			],
+
+			project_source_code: "https://github.com/HarshalMargaj/connectly",
+		},
+	},
 ];
 
 export const testimonials = [
@@ -201,7 +274,7 @@ export const workExperience = [
 	{
 		id: 1,
 		title: "Software Engineer",
-		duration: "Jan 2024 - Dec 2024",
+		duration: "Jan 2024 - Mar 2025",
 		company: "Oculon.AI, Mumbai",
 		desc: `• Led the end-to-end development of the product Dashboard and Settings Panel, owning the entire frontend architecture and UI/UX implementation.
 • Built and maintained scalable, reusable components using ReactJS, Tailwind CSS, Redux, and Next.js, aligned with a design system.
@@ -265,7 +338,7 @@ export const achivements = [
 	},
 	{
 		id: 3,
-		count: "2+",
+		count: "3+",
 		title: "Projects completed",
 		description: "Built using React, Next.js & more",
 	},
