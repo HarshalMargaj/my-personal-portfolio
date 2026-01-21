@@ -274,7 +274,7 @@ export const workExperience = [
 	{
 		id: 1,
 		title: "Software Engineer",
-		duration: "Jan 2024 - Mar 2025",
+		duration: "Apr 2024 - Mar 2025",
 		company: "Oculon.AI, Mumbai",
 		desc: `• Led the end-to-end development of the product Dashboard and Settings Panel, owning the entire frontend architecture and UI/UX implementation.
 • Built and maintained scalable, reusable components using ReactJS, Tailwind CSS, Redux, and Next.js, aligned with a design system.
